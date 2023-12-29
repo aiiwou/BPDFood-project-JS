@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>BPD Food</title>
+</head>
+
+<body class="">
+    <header class="header">
+        <div class="container header__container flex">
+            <a href="#" class="header__logo">
+                <img src="img/BPD Food.svg" alt="лого" class="logo-img">
+            </a>
+            <button class="btn btn-reset header__btn">Корзина</button>
+        </div>
+    </header>
+
+    <main class="main">
+        <aside class="sidebar hide">
+            <div class="sidebar__top in-sidebar flex">
+                <h2 class="sidebar__title in-sidebar">Ваша корзина</h2>
+                <button class="btn btn-reset btn-sidebar-close">X</button>
+            </div>
+            <ul class="sidebar__list flex in-sidebar">
+                <li class="sidebar__item flex in-sidebar">
+                    <p class="sidebar__total in-sidebar">Ещё не добавлены товары</p>
+                </li>
+            </ul>
+        </aside>
+
+        <div class="dark hide"></div>
+        <section class="section-food">
+            <div class="container">
+                <h1 class="section__title">Наши предложения</h1>
+                <ul class="section__list flex row">
+                
+                </ul>
+                <div class="btn-cntnr flex">
+                    <button class="btn btn-reset show-all-btn">Все товары</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="all-items hide">
+            <div class="container">
+                <ul class="btn__list flex">
+                    <li class="btn__item"><button class="btn btn-reset btn-sort">Пицца</button></li>
+                    <li class="btn__item"><button class="btn btn-reset btn-sort">Закуски</button></li>
+                    <li class="btn__item"><button class="btn btn-reset btn-sort">Коктейли</button></li>
+                    <li class="btn__item"><button class="btn btn-reset btn-sort">Кофе</button></li>
+                    <li class="btn__item"><button class="btn btn-reset btn-sort">Напитки</button></li>
+                    <li class="btn__item"><button class="btn btn-reset btn-sort">Десерты</button></li>
+                </ul>
+
+                <ul class="all-items__list row">
+                    
+                </ul>
+                
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer flex"></footer>
+    <script src="main.js" defer></script>
+</body>
+
+</html>
