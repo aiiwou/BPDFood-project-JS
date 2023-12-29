@@ -78,10 +78,6 @@ function createCard(cardObj) {
 }
 
 function renderItemsList(itemsDB, list) {
-    // for (let itemObj of itemsDB) {
-    //     const card = createCard(itemObj);
-    //     list.appendChild(card)
-    // }
     itemsDB.forEach(el => {
         const card = createCard(el);
         list.appendChild(card)
